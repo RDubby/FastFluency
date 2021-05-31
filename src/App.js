@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import FlashcardList from './FlashcardList';
-import './app.css'
+import './App.css'
 
 function App() {
   const [flashcards, setFlashcards] = useState(FLASHCARD_LIST)
@@ -52,6 +52,18 @@ const FLASHCARD_LIST = [
    chinese: '晚上好',
    english: 'Good Evening',
    pinyin: 'wan shang hao'
+  },
+  {
+    id: 6,
+    chinese: '午饭',
+    english: 'Lunch',
+    pinyin: 'wu fan'
+  },
+  {
+    id: 7,
+    chinese: '晚饭',
+    english: 'Dinner',
+    pinyin: 'wan fan'
   },
 ]
 

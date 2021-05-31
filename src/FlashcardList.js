@@ -1,6 +1,5 @@
 import React from 'react'
 import Flashcard from './Flashcard'
-import SAMPLE_FLASHCARD_LIST from './FlashcardDatabase'
 
 export default function FlashcardList({ flashcards }) {
     return (
